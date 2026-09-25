@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Произносительный глоссарий</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <header class="intro">
+      <p class="eyebrow">Профессиональный английский</p>
+      <h1>Произносительный глоссарий</h1>
+      <p>Сравните произношение отдельных слов и словосочетаний. Выберите единицу кнопкой или клавишами Tab и Enter.</p>
+    </header>
+
+    <section class="glossary" aria-labelledby="glossary-title-1">
+      <h2 id="glossary-title-1">Cloud computing</h2>
+
+      <div class="formula" role="group"
+           aria-label="cloud плюс computing равно cloud computing">
+        <button class="term-button" type="button"
+                data-word="cloud" data-lang="en-US"
+                data-audio="audio/cloud-us.mp3">
+          <span class="term" lang="en">cloud</span>
+          <span class="ipa">/klaʊd/</span>
+          <span class="hint">Прослушать</span>
+        </button>
+
+        <span class="operator" aria-hidden="true">+</span>
+
+        <button class="term-button" type="button"
+                data-word="computing" data-lang="en-US"
+                data-audio="audio/computing-us.mp3">
+          <span class="term" lang="en">computing</span>
+          <span class="ipa">/kəmˈpjuː.tɪŋ/</span>
+          <span class="hint">Прослушать</span>
+        </button>
+
+        <span class="operator" aria-hidden="true">=</span>
+
+        <button class="term-button term-button--phrase" type="button"
+                data-word="cloud computing" data-lang="en-US"
+                data-audio="">
+          <span class="term" lang="en">cloud computing</span>
+          <span class="ipa">/klaʊd kəmˈpjuː.tɪŋ/</span>
+          <span class="hint">Прослушать (синтез речи)</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="glossary" aria-labelledby="glossary-title-2">
+      <h2 id="glossary-title-2">Network security</h2>
+
+      <div class="formula" role="group"
+           aria-label="network плюс security равно network security">
+        <button class="term-button" type="button"
+                data-word="network" data-lang="en-US"
+                data-audio="audio/network-us.mp3">
+          <span class="term" lang="en">network</span>
+          <span class="ipa">/ˈnet.wɜːrk/</span>
+          <span class="hint">Прослушать</span>
+        </button>
+
+        <span class="operator" aria-hidden="true">+</span>
+
+        <button class="term-button" type="button"
+                data-word="security" data-lang="en-US"
+                data-audio="audio/security-us.mp3">
+          <span class="term" lang="en">security</span>
+          <span class="ipa">/sɪˈkjʊr.ə.ti/</span>
+          <span class="hint">Прослушать</span>
+        </button>
+
+        <span class="operator" aria-hidden="true">=</span>
+
+        <button class="term-button term-button--phrase" type="button"
+                data-word="network security" data-lang="en-US"
+                data-audio="">
+          <span class="term" lang="en">network security</span>
+          <span class="ipa">/ˈnet.wɜːrk sɪˈkjʊr.ə.ti/</span>
+          <span class="hint">Прослушать (синтез речи)</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="glossary" aria-labelledby="glossary-title-3">
+      <h2 id="glossary-title-3">Database management</h2>
+
+      <div class="formula" role="group"
+           aria-label="database плюс management равно database management">
+        <button class="term-button" type="button"
+                data-word="database" data-lang="en-US"
+                data-audio="audio/database-us.mp3">
+          <span class="term" lang="en">database</span>
+          <span class="ipa">/ˈdeɪ.tə.beɪs/</span>
+          <span class="hint">Прослушать</span>
+        </button>
+
+        <span class="operator" aria-hidden="true">+</span>
+
+        <button class="term-button" type="button"
+                data-word="management" data-lang="en-US"
+                data-audio="audio/management-us.mp3">
+          <span class="term" lang="en">management</span>
+          <span class="ipa">/ˈmæn.ɪdʒ.mənt/</span>
+          <span class="hint">Прослушать</span>
+        </button>
+
+        <span class="operator" aria-hidden="true">=</span>
+
+        <button class="term-button term-button--phrase" type="button"
+                data-word="database management" data-lang="en-US"
+                data-audio="">
+          <span class="term" lang="en">database management</span>
+          <span class="ipa">/ˈdeɪ.tə.beɪs ˈmæn.ɪdʒ.mənt/</span>
+          <span class="hint">Прослушать (синтез речи)</span>
+        </button>
+      </div>
+    </section>
+
+    <p id="status" class="status" role="status" aria-live="polite">
+      Выберите слово или словосочетание.
+    </p>
+
+    <footer>
+      <p>
+        Источники аудио и лицензии:
+        <a href="https://commons.wikimedia.org/wiki/File:En-us-cloud.ogg">cloud</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:En-us-computing.ogg">computing</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:En-us-network.ogg">network</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:En-us-security.ogg">security</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:En-us-database.ogg">database</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:En-us-management.ogg">management</a>.
+        Подробности — в README.md.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
