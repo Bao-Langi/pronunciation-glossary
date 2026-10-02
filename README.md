@@ -15,11 +15,11 @@
 
 | Единица | Файл | Страница | Автор | Лицензия |
 |---|---|---|---|---|
-| cloud | audio/cloud-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-cloud.ogg | Чёза Гени Й | лох1 |
-| computing | audio/computing-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-computing.ogg | Мне По Ху | лох2 |
-| network | audio/network-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-network.ogg | Ху Й Лан | лох3 |
+| cloud | audio/cloud-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-cloud.ogg | Dvortygirl | GNU Free Documentation License |
+| computing | audio/computing-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-computing.ogg | Dvortygirl | GNU Free Documentation License |
+| network | audio/network-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-network.ogg | Dvortygirl | GNU Free Documentation License |
 | security | audio/security-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-security.ogg | Чмон Я | лох4 |
-| database | audio/database-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-database.ogg | Ге Й | лох5 |
+| database | audio/database-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-database.oga | Ге Й | лох5 |
 | management | audio/management-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-management.ogg | Ноу Не Йм | лох6 |
 
 Словосочетания cloud computing, network security и database management озвучиваются
