@@ -61,7 +61,7 @@ async function playPronunciation(button) {
   }
 }
 
-glossary.addEventListener("click", (event) => {
+document.addEventListener("click", (event) => {
   const button = event.target.closest(".term-button");
   if (button) playPronunciation(button);
 });
