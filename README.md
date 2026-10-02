@@ -18,9 +18,9 @@
 | cloud | audio/cloud-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-cloud.ogg | Dvortygirl | GNU Free Documentation License |
 | computing | audio/computing-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-computing.ogg | Dvortygirl | GNU Free Documentation License |
 | network | audio/network-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-network.ogg | Dvortygirl | GNU Free Documentation License |
-| security | audio/security-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-security.ogg | Чмон Я | лох4 |
-| database | audio/database-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-database.oga | Ге Й | лох5 |
-| management | audio/management-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-management.ogg | Ноу Не Йм | лох6 |
+| security | audio/security-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-security.ogg | Dvortygirl | GNU Free Documentation License |
+| database | audio/database-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-database.oga | Dvortygirl | GNU Free Documentation License |
+| management | audio/management-us.mp3 | https://commons.wikimedia.org/wiki/File:En-us-management.ogg | Paul2520 | Creative Commons Attribution-Share Alike 4.0 International |
 
 Словосочетания cloud computing, network security и database management озвучиваются
 резервным синтезом речи (Web Speech API, тег en-US). Голос зависит от браузера и ОС.
